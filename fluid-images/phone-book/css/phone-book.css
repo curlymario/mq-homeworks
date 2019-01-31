@@ -1,0 +1,8 @@
+.card__contact a,
+.card__contact a:hover,
+.card__contact a:active,
+.card__contact a:link,
+.card__contact a:visited {
+  text-decoration: none;
+  color: inherit;
+}
