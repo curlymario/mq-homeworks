@@ -1,4 +1,4 @@
-@media (max-width: 768px), (min-width: 1301px) { /* Если оставить (max-width: 768px), то на 767px всё ломается*/
+@media (max-width: 767px), (min-width: 1301px) { /*на 767px всё ломается и я хз как это исправить. пробовал залезать в card-common.css, становится хуже*/
 
   .profile__preview:before {
     background-color: #481bae;
