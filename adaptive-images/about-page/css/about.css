@@ -1,0 +1,29 @@
+@media all and (max-width: 960px) {
+  
+  .aside {
+    visibility: hidden;
+  }
+
+  .content {
+    width: auto;
+  }
+}
+
+@media all and (min-width: 961px) {
+
+  .page {
+    display: flex;
+  }
+
+  .aside {
+    width: 320px;
+    margin-right: 40px;
+    order: 0;
+    flex-shrink: 0;
+  }
+
+  .content {
+    width: auto;
+    order: 1;
+  }
+}
