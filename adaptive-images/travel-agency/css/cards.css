@@ -35,8 +35,8 @@
     flex-basis: 25%;
   }
 
-  .card:nth-last-child(-6n+11),
-  .card:nth-last-child(-6n+12) {
+  .card:nth-child(-6n+11),
+  .card:nth-child(-6n+12) {
     flex-basis: 50%;
   }
 }
